@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/* 1921px 보다 같거나 큰 상황일 때 */
+
+@media (min-width:1921px){
+
+    header h1 { }
+
+    .gnb_list > li { padding:0 1.95vw;  } 
+    .mitem { font-size: 0.83vw;  }
+    .subItem {font-size: 0.8vw;}
+    .subItem_list > li {margin-bottom:0.52vw;}
+
+    .nat_target_in {font-size: 0.83vw;  }
+    .btn_total_in {font-size: 0.83vw; }
+
+   /* section */
+   .s1_sns{ bottom:100px; left:7vw;}
+   .s1_sns li {margin-bottom:50px;}
+   .s1_sns li a {width:32px; height:32px;}
+
+}
+
+
+@media(max-width:1279px){
+    .gnb_list > li {padding:0 20px; }
+    .subItem_w {width:calc(100% + 30px); margin-left:-15px}
+
+}
+
+
+/*  .gnb_list가 사라지는 포인트 */
+@media (max-width:1023px){
+    header {height:55px; min-height:auto;}
+    header h1 {margin-left:30px; height:55px;}
+    header h1 a {  width:90px;}
+    
+    .gnb_list_w{display:none;}
+    .national_list {width:20%;}
+    .totalmenu_w {width:20%;}
+    .btn_total:before, .btn_total:after { width:30px; left:50%; top:50%; margin-left:-15px; }
+    .btn_total_in {display:none;}
+
+  
