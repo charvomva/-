@@ -51,7 +51,7 @@ header {}
 i {color:#111; z-index: 10000;}
 
 
-.content3 {width:1440px; height:500px; margin:100px auto;} 
+.content3 {width:1440px; height:400px; margin:100px auto; background: url('../img/bg_section02.png') 50% 50% /1440px;} 
 .cont3_title {font-size:35px; color:#111; text-align: center; }
 
 
