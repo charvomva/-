@@ -1,4 +1,4 @@
-var swiper = new Swiper(".mySwiper", {
+var swiper = new Swiper(".mySwiper ", {
     speed: 600,
     parallax: true,
     pagination: {
@@ -11,18 +11,20 @@ var swiper = new Swiper(".mySwiper", {
     },
   });
 
-  var swiper = new Swiper(".MySwiper", {
+  var swiper = new Swiper(".mySwiper .second", {
     slidesPerView: 3,
     spaceBetween: 30,
     slidesPerGroup: 3,
     loop: true,
     loopFillGroupWithBlank: true,
     pagination: {
-      el: ".Swiper-pagination",
+      el: ".swiper-pagination",
       clickable: true,
     },
     navigation: {
-      nextEl: ".Swiper-button-next",
-      prevEl: ".Swiper-button-prev",
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
     },
   });
+
+ 
