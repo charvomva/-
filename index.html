@@ -10,27 +10,27 @@
     <link rel="stylesheet" href="css/responsive.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
     <script src="js/prefixfree.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     
 </head>
 <body>
     <header>
-        <div class="navbar">
+        <div class="navBar">
             <a href="index.html"><h1>로고</h1></a>
-            <ul>
-                <li><a href="#">지금의 서울</a></li>
-                <li><a href="#">추천</a></li>
-                <li><a href="#">여행지</a></li>
-                <li><a href="#">지역</a></li>
-                <li><a href="#">여행정보</a></li>
-            </ul>
-            <div class="navbar_right">
+                <ul>
+                    <li><a href="#">지금의 서울</a></li>
+                    <li><a href="#">추천</a></li>
+                    <li><a href="#">여행지</a></li>
+                    <li><a href="#">지역</a></li>
+                    <li><a href="#">여행정보</a></li>
+                </ul>
+            <div class="navBar_right">
                 <div class="search">
                     <a href="#"><i class="bi bi-search"></i></a>
                 </div>
-                <div class="navbar_lang">
+                <div class="navabr_lang">
                     <span>한국어 <a href=""><i class="bi bi-caret-down-fill"></i></a></span>
                 </div>
             </div>
@@ -54,11 +54,62 @@
             </ul>
         </div>
         <div class="slide_pic">
-            <div class="img_wrap">
-                <img src="https://via.placeholder.com/300" alt="">
-                <img src="https://via.placeholder.com/300" alt="">
-                <img src="https://via.placeholder.com/300" alt="">
+
+            <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+            class="swiper mySwiper"
+          >
+            <div
+              class="parallax-bg"
+              style="
+                background-image: url(img/getImage\ \(1\).jpeg);
+              "
+              data-swiper-parallax="-23%"
+            ></div>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="title" data-swiper-parallax="-300">서울 등산 완전 정복</div>
+                <div class="subtitle" data-swiper-parallax="-200">북한산 완전정복</div>
+                <div class="text" data-swiper-parallax="-100">
+                  <p>
+                    이미 북한산의 여러 코스를 정복한 당신이라면, 이제는 새로운 코스에 도전하여 북한산을 완전 정복 해보는 것은 어떤가? 북한산에는 스무 개가 넘는 크고 작은 봉우리가 저마다 각기 다른 매력을 뽐내고 있다.
+                    <br><br> <a href="#" style="color:#fff; ">더보기 > </a>
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="title" data-swiper-parallax="-300">서울 등산 완전 정복</div>
+                <div class="subtitle" data-swiper-parallax="-200">북한산 클라이머</div>
+                <div class="text" data-swiper-parallax="-100">
+                  <p>
+                    북한산은 산 전체가 거대한 화강암으로 형성된 대표적인 바위산이다. 그리고 그 바위들 덕분에 북한산에는 웅장한 자태를 자랑하는 암봉들이 있고, 정상에 도달하기 위해 암릉과 암벽을 지나는 코스도 많아 자연스레 커다란 바위들과 마주하게 된다.
+                    <br><br> <a href="#" style="color:#fff; ">더보기 > </a>
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="title" data-swiper-parallax="-300">서울 등산 완전 정복</div>
+                <div class="subtitle" data-swiper-parallax="-200">K-등산의 완벽한 마무리</div>
+                <div class="text" data-swiper-parallax="-100">
+                  <p>
+                    K-등산이란 자고로 하산 후 맛있는 한 끼 식사까지 마쳐야 비로소 등산이 끝났다고 말할 수 있을 것이다. 우스갯소리로 ‘먹으려고 등산한다’고 말하는 사람까지 있을 정도로, 맛있는 음식을 먹는 것은 등산의 또 하나의 즐거움이다.
+                    <br><br> <a href="#" style="color:#fff; ">더보기 > </a>
+                  </p>
+                </div>
+              </div>
             </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+
+
+        
+        <!--  <div class="img_wrap">
+                <img src="https://via.placeholder.com/300" alt="">
+                <img src="https://via.placeholder.com/300" alt="">
+                <img src="https://via.placeholder.com/300" alt="">
+            </div> -->
         </div>
     </div>
 
