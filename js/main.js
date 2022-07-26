@@ -10,3 +10,19 @@ var swiper = new Swiper(".mySwiper", {
       prevEl: ".swiper-button-prev",
     },
   });
+
+  var swiper = new Swiper(".MySwiper", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    slidesPerGroup: 3,
+    loop: true,
+    loopFillGroupWithBlank: true,
+    pagination: {
+      el: ".Swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".Swiper-button-next",
+      prevEl: ".Swiper-button-prev",
+    },
+  });

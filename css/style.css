@@ -34,10 +34,12 @@ header {}
 
 .sub_list li:hover {background:#1F6FB1; color:#fff;}
 
+
+
+
+.slide_pic {position:absolute; top:20px; width:1440px; height:550px; }
+
 /**********************/
-
-
-
 .swiper {
     width: 900px;
     height: 400px;
@@ -94,30 +96,45 @@ header {}
     font-weight: 500;
     text-shadow: 0 2px 4px black;
   }
-
-
-
-
-
 /**********************/
 
+/*********두번째 스와이퍼************/
 
-.slide_pic {position:absolute; top:20px; width:1440px; height:550px; }
-.slide_pic .img_wrap {transform:translateY(100px); text-align: center;}
-.slide_pic img { margin-left:25px; border-radius: 10px;}
-
-
-.content2 {position:relative; margin:100px auto; width:1240px; height:500px; border-radius: 50px; background: rgb(246,246,246) url('../img/megaphone.svg') no-repeat 10% 70% / 250px auto;}
+.content2 {position:relative; margin:100px auto; width:1440px; height:500px;  border: 1px solid red;}
 .cont2_title {position:absolute; font-weight:500; top:45px; left:10%; font-size:35px; color:#111;}
-.event {position:absolute; margin:10px 0; right:0; width:800px; height:500px;}
-.event ul {}
 
-.event ul li {float:left; margin-right:10px; margin-bottom:10px;}
-.event ul li:nth-child(3) {}
-.event ul li img { border-radius: 10px;}
+.Swiper {
+    width: 100%;
+    height: 100%;
+  }
 
-i {color:#111; z-index: 10000;}
+  .Swiper-slide {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
 
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .Swiper-slide img {
+    display: block;
+    width: 30%;
+    height: 100%;
+    object-fit: cover;
+  }
 
 .content3 {width:1440px; height:400px; margin:100px auto; background: url('../img/bg_section02.png') 50% 50% /1440px;} 
 .cont3_title {font-size:35px; color:#111; text-align: center; }
