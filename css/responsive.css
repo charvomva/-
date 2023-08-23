@@ -4,20 +4,85 @@
 
 @media (min-width:1921px){
 
-    header h1 { }
-
-   /* section */
-
 }
 
 
 @media(max-width:1279px){
-    
+    body {width:1279px;}
+    .navBar {width:100%;}  
+    .navabr_lang {padding: 0 20px;}
+    .langList {transform: translate(346px,-300px);}
+    .menuicon {display:none;}
+    .move {transform: translate(346px,0px);}
+
+    .slide_page span {top:55%;}
+
 }
 
 
 /*  .gnb_list가 사라지는 포인트 */
-@media (max-width:1023px){
-  
+@media (max-width:1000px){
+    body {width:980px;}
+    .menuGroup li {font-size:14px; }
+    .menuicon {display:none;}
+    .con2info {padding:18px;}
+    .con2Text {line-height: 28px; font-size: 15px;}
+    .infoContainer {gap:30px;}
 
+    .langList {transform: translate(249px,-300px);}
+    .move {transform: translate(249px,0px);}
+
+    .con4vid {padding: 0 20px;}
+    .con4pic {padding: 20px 0;}
+
+    .snsThumbs {width:135px; height:135px;}
+    .snsMask {font-size:14px; width:122px; left: 53%;}
+}
+
+@media(max-width:960px){
+    .logo {width:55px; padding: 0 25px;}
+    .menuGroup, .navabr_lang {display:none;}
+    .menuicon {display:flex; color:white; padding: 0 25px; cursor: pointer;}
+}
+
+@media(max-width:700px){
+    body {width:700px;}
+    .main {height:420px;}
+    .search {display:none;}
+    .slide_page span { top: 20%;}
+    
+    .nightBack, .nightBack02 {height:0;}
+
+    .con2contaniner {flex-direction: column;}
+    .con2info {width:100%; gap: 14px;}
+
+    .infoContainer {width:50%; flex-wrap: wrap; gap:20px; justify-content: center;}
+    .infoUnit {width:110px; }
+
+
+    .con4container {flex-direction: column;}
+    .con4vid {padding: 0 20px; margin: auto; width:70%;}
+    .con4pic {padding: 20px 0; margin: auto; width:100%;}
+    .snslist {justify-content: center;}
+    .snsThumbs {width:175px; height:175px;}
+}
+
+@media(max-width:500px){
+    body {width:490px}
+
+    .main { height: 230px;}
+    .slide_page span {top:35%;}
+    .slide_page span p {font-size: 29px;}
+
+    .cont_title {font-size: 25px;}
+    .nightTitle {font-size:20px}
+    .nightText {font-size:14px}
+    .nightBack , .nightBack02 {height:0;}
+
+    .con2info {padding: 0;}
+    .con2Title { font-size: 20px;}
+    .con2Text {width: 300px; }
+
+    .snsThumbs {width:125px; height:125px;}
+    .snsMask {font-size:10px; width: 94px;}
 }
